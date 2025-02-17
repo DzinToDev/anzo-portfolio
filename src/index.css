@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: anzo;
+  src: url(./assets/file.woff2);
+}
+
+@font-face {
+  font-family: anzo1;
+  src: url(./assets/file1.woff2);
+}
+
+@font-face {
+  font-family: anzo2;
+  src: url(./assets/file2.woff2);
+}
+
+@font-face {
+  font-family: anzo3;
+  src: url(./assets/file3.woff2);
+}
+
+@font-face {
+  font-family: anzo4;
+  src: url(./assets/madefor-text.var.original.woff2);
+}
+
+#page1-in {
+  /* background-color: bisque; */
+  position: relative;
+  perspective: 1000px;
+}
+#page2Texts {
+  /* background-color: bisque; */
+  position: relative;
+  perspective: 2500px;
+}
+
+#tiltDiv {
+  /* background-color: orangered; */
+  transform: rotateX(30deg);
+}
+
+.rotateText {
+  /* background-color: chocolate; */
+  transform-origin: 100% 70%;
+}
+
+/* #svg-container { 
+  scale: 0.5;
+  background-color: red;
+} */

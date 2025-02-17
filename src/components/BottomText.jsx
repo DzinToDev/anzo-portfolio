@@ -2,7 +2,7 @@ import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import React from "react";
 
-const Bottomtext = () => {
+const BottomText = () => {
 
   useGSAP(function(){
     gsap.to('#btm-circles img', {
@@ -29,4 +29,4 @@ const Bottomtext = () => {
   );
 };
 
-export default Bottomtext;
+export default BottomText;

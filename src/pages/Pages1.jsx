@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import TitleText from "../components/TitleText";
-import Bottomtext from "../components/Bottomtext";
+import BottomText from "../components/BottomText";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 
@@ -57,7 +57,7 @@ const Pages1 = () => {
         />
 
         <TitleText abc={tiltRef} />
-        <Bottomtext />
+        <BottomText />
       </div>
     </div>
   );
